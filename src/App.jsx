@@ -191,6 +191,10 @@ const App = () => {
         <div className="temp">
           <h3>Translated Text</h3>
           <div className="translated-text flex-row">
+            <div>
+              {isLoading ? <BeatLoader size={12} color={"red"} /> : translation}
+            </div>
+
             <div className="copy-btn" onClick={handleCopy}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -207,7 +211,6 @@ const App = () => {
                 />
               </svg>
             </div>
-            {isLoading ? <BeatLoader size={12} color={"red"} /> : translation}
           </div>
         </div>
       </div>
