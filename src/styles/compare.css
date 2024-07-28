@@ -1,0 +1,157 @@
+/* compare.css */
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  position: relative;
+}
+
+.compare-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.compare-btn:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.models-list {
+  margin-top: 20px;
+}
+
+.models-section {
+  margin-bottom: 30px;
+}
+
+.models-section h2 {
+  margin-bottom: 10px;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 5px;
+}
+
+.model-card {
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+.model-card h3 {
+  margin: 0 0 10px 0;
+  color: var(--primary-color);
+}
+
+.model-card p {
+  margin: 5px 0;
+}
+.select-container-outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.language-radio {
+  display: flex;
+  justify-content: space-between;
+}
+.select-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.select-container label {
+  margin-bottom: 10px;
+}
+
+.select-container select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  background-color: #2a2a2a;
+  color: var(--text-color);
+  width: 200px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  margin-bottom: 10px;
+}
+
+.input-container input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  background-color: #2a2a2a;
+  color: var(--text-color);
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.radio-container label {
+  margin-bottom: 5px;
+}
+
+.radio-container input[type="radio"] {
+  margin-right: 10px;
+}
+
+.selected-models {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.output-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.output-card {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: var(--text-color);
+}
+
+.compare-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+}
