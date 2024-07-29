@@ -18,3 +18,27 @@ body {
   background-color: #20232a; /* Slightly lighter than container bg for contrast */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
 }
+
+.top-div {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.top-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.top-btn:hover {
+  background-color: var(--primary-hover-color);
+}

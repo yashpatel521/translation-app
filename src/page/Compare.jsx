@@ -105,7 +105,7 @@ const Compare = () => {
   };
 
   return (
-    <div className="container">
+    <div className="compare-container">
       <h1>Compare AI Models</h1>
       <form onSubmit={handleCompare}>
         <div className="select-container-outer">
@@ -178,9 +178,6 @@ const Compare = () => {
           </div>
         ))}
       </div>
-      <Link to="/">
-        <button className="compare-btn">Back to Translation</button>
-      </Link>
     </div>
   );
 };

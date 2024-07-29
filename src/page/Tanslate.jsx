@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { BeatLoader } from "react-spinners";
 import "../styles/Translate.css";
+import Header from "../components/Header";
 
-const Tanslate = () => {
+const Translate = () => {
   const [formData, setFormData] = useState({
     languageId: "",
     modelId: "",
@@ -85,11 +86,8 @@ const Tanslate = () => {
   };
 
   return (
-    <div className="container">
+    <div className="translate-container">
       <h1>Translation</h1>
-      <Link to="/compareAi" className="compare-btn">
-        Try Compare AI
-      </Link>
       <form onSubmit={handleOnSubmit}>
         <div className="models">
           {options.models.map((model) => (
@@ -169,4 +167,4 @@ const Tanslate = () => {
   );
 };
 
-export default Tanslate;
+export default Translate;
