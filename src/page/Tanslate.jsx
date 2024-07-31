@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { BeatLoader } from "react-spinners";
-import "../styles/Translate.css";
-import Header from "../components/Header";
 
 const Translate = () => {
   const [formData, setFormData] = useState({

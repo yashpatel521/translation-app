@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import "../styles/compare.css";
 import { BeatLoader } from "react-spinners";
 
 const Compare = () => {

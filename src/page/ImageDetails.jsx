@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import "../styles/ImageDetails.css"; // Import the CSS file
 import { BeatLoader } from "react-spinners";
-import { Link } from "react-router-dom";
 
 const ImageDetails = () => {
   const [file, setFile] = useState(null);
