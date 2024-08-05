@@ -101,6 +101,9 @@ const Compare = () => {
       }
     }
   };
+  const timeHandler = (timeTaken) => {
+    return (timeTaken / 1000).toFixed(2) + "s";
+  };
 
   return (
     <div className="compare-container">
@@ -172,6 +175,9 @@ const Compare = () => {
             </p>
             <p>
               <strong>Detected Language:</strong> {output.detectedLanguage}
+            </p>
+            <p>
+              <strong>Time Taken:</strong> {timeHandler(output.timeTaken)}
             </p>
           </div>
         ))}
